@@ -1,11 +1,14 @@
-# Codictate
+<div align="center">
+  <img src="logo.png" width="120" alt="Codictate" />
 
-**Local, private voice dictation for macOS - press a shortcut, speak, done.**
+  # Codictate
+
+  **Local, private voice dictation for macOS - press a shortcut, speak, done.**
+</div>
 
 Codictate puts your words wherever your cursor is - no copy-pasting, no switching windows, no cloud. It runs entirely on your machine using local AI models, so nothing you say ever leaves your device.
 
 ---
-
 
 ## Why I built this
 
@@ -13,7 +16,11 @@ I was a happy user of tools like Wispr Flow and SuperWhisper. They're great - un
 
 What bothered me wasn't just the price. It was the principle: these tools send your voice to a server somewhere, process it, and send text back. That means someone else's infrastructure is listening. And the moment the pricing changes, you're stuck.
 
-So I built my own. Codictate is fully local - the transcription runs on your Mac, offline, with no account required and no data collected. It's fast, it respects your privacy, and it costs nothing to run.
+So I decided to build my own. But I also gave myself a challenge: learn a completely new technology stack in the process, and do it **without using AI** to write a single line of code - at least not until the app was working well enough that I could dictate into it and have my words appear on screen.
+
+The idea was simple and a little absurd: I'd only unlock AI assistance once I'd built the very thing that would let me use it. It forced me to actually understand what I was building, read the docs properly, and think through the problems myself.
+
+Codictate is the result - fully local, fast, and free.
 
 ---
 
