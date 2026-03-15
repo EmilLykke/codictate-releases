@@ -8,21 +8,21 @@
 
 Go to [Releases](https://github.com/EmilLykke/codictate-releases/releases) and download `stable-macos-arm64-Codictate.dmg`.
 
-![Step 1](StepByStep/Step1.png)
+<img src="StepByStep/Step1.png" width="700" />
 
 ---
 
 ### Step 2 - Wait for the download to complete
 
-![Step 2](StepByStep/Step2.png)
+<img src="StepByStep/Step2.png" width="500" />
 
 ---
 
 ### Step 3 - Open the DMG and drag Codictate to Applications
 
-![Step 3](StepByStep/Step3.png)
+<img src="StepByStep/Step3.png" width="700" />
 
-![Step 4](StepByStep/Step4.png)
+<img src="StepByStep/Step4.png" width="700" />
 
 ---
 
@@ -30,7 +30,7 @@ Go to [Releases](https://github.com/EmilLykke/codictate-releases/releases) and d
 
 Press `Cmd+Space` to open Spotlight and search for **Codictate**.
 
-![Step 5](StepByStep/Step5.png)
+<img src="StepByStep/Step5.png" width="700" />
 
 ---
 
@@ -38,7 +38,7 @@ Press `Cmd+Space` to open Spotlight and search for **Codictate**.
 
 This happens because Codictate isn't signed with an Apple Developer certificate (those cost $99/year - spent the budget on coffee instead). Don't worry, the fix is one command.
 
-![Step 6](StepByStep/Step6.png)
+<img src="StepByStep/Step6.png" height="380" />
 
 ---
 
@@ -46,7 +46,7 @@ This happens because Codictate isn't signed with an Apple Developer certificate 
 
 Press `Cmd+Space` again and search for **Terminal**.
 
-![Step 7](StepByStep/Step7.png)
+<img src="StepByStep/Step7.png" width="700" />
 
 ---
 
@@ -58,9 +58,9 @@ Copy and paste this command into Terminal and press Enter:
 xattr -cr /Applications/Codictate.app
 ```
 
-![Step 8](StepByStep/Step8.png)
+<img src="StepByStep/Step8.png" width="700" />
 
-![Step 9](StepByStep/Step9.png)
+<img src="StepByStep/Step9.png" width="700" />
 
 ---
 
@@ -68,7 +68,7 @@ xattr -cr /Applications/Codictate.app
 
 Press `Cmd+Space` and search for **Codictate** again.
 
-![Step 10](StepByStep/Step10.png)
+<img src="StepByStep/Step10.png" width="700" />
 
 ---
 
@@ -76,7 +76,7 @@ Press `Cmd+Space` and search for **Codictate** again.
 
 Click **Allow** when macOS asks.
 
-![Step 11](StepByStep/Step11.png)
+<img src="StepByStep/Step11.png" height="380" />
 
 ---
 
@@ -84,13 +84,13 @@ Click **Allow** when macOS asks.
 
 Codictate needs this to detect your shortcut while other apps are in focus. Click **Open System Settings** and enable the toggle for Codictate.
 
-![Step 12](StepByStep/Step12.png)
+<img src="StepByStep/Step12.png" height="320" />
 
-![Step 13](StepByStep/Step13.png)
+<img src="StepByStep/Step13.png" height="380" />
 
 The app may quit after this - that is expected. Open it again via Spotlight (`Cmd+Space` → Codictate).
 
-![Step 14](StepByStep/Step14.png)
+<img src="StepByStep/Step14.png" width="700" />
 
 ---
 
@@ -98,9 +98,9 @@ The app may quit after this - that is expected. Open it again via Spotlight (`Cm
 
 Codictate needs this to paste the transcribed text into other apps. Click **Open System Settings** and enable **both** Codictate entries.
 
-![Step 15](StepByStep/Step15.png)
+<img src="StepByStep/Step15.png" height="320" />
 
-![Step 16](StepByStep/Step16.png)
+<img src="StepByStep/Step16.png" height="380" />
 
 ---
 
@@ -108,9 +108,9 @@ Codictate needs this to paste the transcribed text into other apps. Click **Open
 
 Back in the Codictate app, click **Allow** next to Microphone. You will be taken to System Settings - enable the toggle for Codictate.
 
-![Step 17](StepByStep/Step17.png)
+<img src="StepByStep/Step17.png" height="480" />
 
-![Step 18](StepByStep/Step18.png)
+<img src="StepByStep/Step18.png" height="380" />
 
 ---
 
@@ -118,9 +118,9 @@ Back in the Codictate app, click **Allow** next to Microphone. You will be taken
 
 Codictate is now set up. Press `Option+Space` anywhere to start recording, press it again to stop - your words will appear wherever your cursor is.
 
-![Step 19](StepByStep/Step19.png)
+<img src="StepByStep/Step19.png" height="480" />
 
-![Step 20](StepByStep/Step20.png)
+<img src="StepByStep/Step20.png" width="700" />
 
 ---
 
@@ -130,11 +130,11 @@ If Codictate isn't working as expected (shortcut not detected, text not pasting,
 
 **Open System Settings → Privacy & Security**
 
-![System Settings](StepByStep/SystemSettings.png)
+<img src="StepByStep/SystemSettings.png" height="480" />
 
 Scroll down to the **Privacy & Security** section. You need to verify four entries:
 
-![Privacy & Security subsections](StepByStep/SubSections.png)
+<img src="StepByStep/SubSections.png" height="480" />
 
 Make sure Codictate is enabled under **all four** of these:
 
