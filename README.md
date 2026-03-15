@@ -6,6 +6,7 @@ Codictate puts your words wherever your cursor is - no copy-pasting, no switchin
 
 ---
 
+
 ## Why I built this
 
 I was a happy user of tools like Wispr Flow and SuperWhisper. They're great - until they aren't free anymore.
@@ -13,6 +14,14 @@ I was a happy user of tools like Wispr Flow and SuperWhisper. They're great - un
 What bothered me wasn't just the price. It was the principle: these tools send your voice to a server somewhere, process it, and send text back. That means someone else's infrastructure is listening. And the moment the pricing changes, you're stuck.
 
 So I built my own. Codictate is fully local - the transcription runs on your Mac, offline, with no account required and no data collected. It's fast, it respects your privacy, and it costs nothing to run.
+
+---
+
+## Support
+
+Codictate is free. If it saves you money on other tools, consider buying me a coffee - it helps me keep working on it.
+
+[☕ ko-fi.com/emillykke](https://ko-fi.com/emillykke)
 
 ---
 
@@ -46,13 +55,6 @@ Go to [Releases](https://github.com/EmilLykke/codictate-releases/releases) and d
 
 ---
 
-## Support
-
-Codictate is free. If it saves you money on other tools, consider buying me a coffee - it helps me keep working on it.
-
-[☕ ko-fi.com/emillykke](https://ko-fi.com/emillykke)
-
----
 
 ## Privacy
 
