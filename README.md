@@ -46,6 +46,14 @@ Go to [Releases](https://github.com/EmilLykke/codictate-releases/releases) and d
 
 ---
 
+## Support
+
+Codictate is free. If it saves you money on other tools, consider buying me a coffee - it helps me keep working on it.
+
+[☕ ko-fi.com/emillykke](https://ko-fi.com/emillykke)
+
+---
+
 ## Privacy
 
 - No account, no login
