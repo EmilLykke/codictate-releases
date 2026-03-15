@@ -45,30 +45,13 @@ Go to [Releases](https://github.com/EmilLykke/codictate-releases/releases) and d
 
 ## Installation
 
-1. Download the `.dmg` for your channel
-2. Open it and drag **Codictate** to your Applications folder
-3. Launch the app - macOS will ask for a few permissions on first run:
-   - **Microphone** - to record your voice
-   - **Input Monitoring** - to detect the activation shortcut
-   - **Accessibility** - to type into whatever app you're using
+First time installing? See the **[step-by-step installation guide](INSTALL.md)** with screenshots for every step.
 
-### "App is damaged" or won't open?
-
-macOS may block the app because Codictate isn't signed with an Apple Developer certificate (those cost $99/year - spent the budget on coffee instead).
-
-If the `.dmg` itself won't open, run this first:
-
-```bash
-xattr -cr ~/Downloads/Codictate.dmg
-```
-
-If the app won't launch after installing, run this:
-
-```bash
-xattr -cr /Applications/Codictate.app
-```
-
-Then try again. You only need to do this once.
+The short version:
+1. Download the `.dmg` from [Releases](https://github.com/EmilLykke/codictate-releases/releases)
+2. Drag **Codictate** to your Applications folder
+3. Run `xattr -cr /Applications/Codictate.app` in Terminal if macOS blocks it
+4. Grant the required permissions when prompted (Input Monitoring, Accessibility, Microphone)
 
 ---
 
