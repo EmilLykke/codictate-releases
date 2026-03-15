@@ -45,6 +45,24 @@ Go to [Releases](https://github.com/EmilLykke/codictate-releases/releases) and d
    - **Input Monitoring** - to detect the activation shortcut
    - **Accessibility** - to type into whatever app you're using
 
+### "App is damaged" or won't open?
+
+macOS may block the app because Codictate isn't signed with an Apple Developer certificate (those cost $99/year - spent the budget on coffee instead).
+
+If the `.dmg` itself won't open, run this first:
+
+```bash
+xattr -cr ~/Downloads/Codictate.dmg
+```
+
+If the app won't launch after installing, run this:
+
+```bash
+xattr -cr /Applications/Codictate.app
+```
+
+Then try again. You only need to do this once.
+
 ---
 
 ## Requirements
